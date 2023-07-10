@@ -1,0 +1,98 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* common style */
+.primary-but {
+    border-radius: 15px;
+    background: #E55473;
+    color: #FFF;
+    font-family: Lato;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    padding: 20px 40px;
+    gap: 5px;
+}
+
+
+
+/* header related style */
+.header {
+    background: rgba(229, 84, 115, 0.10);
+    justify-content:space-between;
+    align-items: center;
+
+}
+
+.header-contant {
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+    padding: 10px 20px 0px 170px;
+    width: auto;
+}
+
+.header-title {
+    display: flex;
+    width: 708px;
+    color: #272727;
+    font-family: Lato;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 400;
+    margin: 150px 100px 20px 5px;
+}
+
+.header-pera {
+    display: flex;
+    width: 634px;
+    color: rgba(39, 39, 39, 0.60);
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.head-image {
+    width: 400px;
+    height: 600px;
+    margin: auto;
+}
+
+.header-info{
+    margin-left: 10px;
+    margin-bottom: 100px;
+}
+
+/* upper header style */
+
+.shop-name {
+    margin: 0px 370px 30px 29px;
+    font-family:Cursive;
+    font-size: 20px;
+}
+
+.header-option {
+    display: flex;
+    padding: 20px;
+    background-color: #FFFFFF;
+    height: 45px;
+    width: auto;
+}
+
+nav>ul {
+    display: flex;
+    align-items: center;
+}
+
+nav li {
+    list-style: none;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #474747;
+}
