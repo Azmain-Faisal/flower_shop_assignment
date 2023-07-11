@@ -17,6 +17,7 @@ body {
 
 
 
+
 /* header related style */
 
 .header {
@@ -294,10 +295,9 @@ nav a {
 
 
 /* service style added */
-.services{
+.services {}
 
-}
-.service-title{
+.service-title {
     color: #272727;
     text-align: center;
     font-family: Lato;
@@ -307,15 +307,17 @@ nav a {
     display: flex;
     justify-content: center;
 }
-.service-title-pic{
+
+.service-title-pic {
     height: 60px;
     width: 80px;
     margin-bottom: 20px;
     margin-right: 0px;
 }
-.service-pera-1{
+
+.service-pera-1 {
     color: rgba(39, 39, 39, 0.60);
-    text-align:justify;
+    text-align: justify;
     font-family: Lato;
     font-size: 22px;
     font-weight: 400;
@@ -323,31 +325,36 @@ nav a {
     line-height: 35px;
     margin: 0px 50px 0px 50px;
 }
-.service-pera-pic-1{
+
+.service-pera-pic-1 {
     border-radius: 10px;
-    box-shadow:#8a7378 10px 10px 30px;
+    box-shadow: #8a7378 10px 10px 30px;
     margin-left: 50px;
     height: 400px;
     width: 1000px;
 }
-.pera-part-1{
+
+.pera-part-1 {
     display: flex;
 }
-.pera-part-2{
+
+.pera-part-2 {
     display: flex;
     padding-top: 50px;
     padding-bottom: 150px;
 }
-.service-pera-pic-2{
+
+.service-pera-pic-2 {
     border-radius: 10px;
-    box-shadow:#8a7378 20px 20px 50px;
+    box-shadow: #8a7378 20px 20px 50px;
     margin-right: 50px;
     height: 400px;
     width: 1000px;
 }
-.service-pera-2{
+
+.service-pera-2 {
     color: rgba(39, 39, 39, 0.60);
-    text-align:justify;
+    text-align: justify;
     font-family: Lato;
     font-size: 22px;
     font-weight: 400;
@@ -355,25 +362,120 @@ nav a {
     line-height: 35px;
     margin: 0px 50px 0px 50px;
 }
-.provide{
+
+.provide {
     display: flex;
-    padding-bottom: 100px;
+    padding-bottom: 80px;
     padding-top: 0px;
 }
-.service-provide-1,.service-provide-2,.service-provide-3,.service-provide-4{
+
+.service-provide-1, .service-provide-2, .service-provide-3, .service-provide-4 {
     display: flex;
     padding-right: 5px;
 }
-.service-provide-pic1,.service-provide-pic2,.service-provide-pic3,.service-provide-pic4{
+
+.service-provide-pic1, .service-provide-pic2, .service-provide-pic3, .service-provide-pic4 {
     height: 60px;
     width: 80px;
     margin-top: 30px;
     margin-left: 50px;
 }
-.service-provide-title,.service-provide-title-2,.service-provide-title-3,.service-provide-title-4{
+
+.service-provide-title, .service-provide-title-2, .service-provide-title-3, .service-provide-title-4 {
     color: #272727;
     font-family: Lato;
     font-size: 30px;
     font-weight: 800;
     padding-bottom: 0px;
+}
+
+
+/* featured related style */
+.featured {
+    background: rgba(229, 84, 115, 0.10);
+}
+
+.featured-title {
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 40px;
+    font-weight: 800;
+    padding-top: 100px;
+}
+
+.featured-pera {
+    display: flex;
+    width: 594px;
+    color: rgba(136, 109, 109, 0.6);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-left: 365px;
+    padding-bottom: 50px;
+}
+
+.pic {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 200px;
+}
+
+.pic-1 {
+    background: rgb(145, 207, 209);
+    border-radius: 300px 300px 0px 0px;
+    width: 400px;
+    height: 500px;
+    margin-right: 30px;
+    margin-left: 50px;
+}
+
+.pic-2 {
+    background: rgba(5, 151, 160, 0.15);
+    border-radius: 300px 300px 0px 0px;
+    width: 400px;
+    height: 500px;
+    margin-right: 30px;
+    margin-left: 0px;
+}
+
+.pic-3 {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+    width: 400px;
+    height: 500px;
+    margin-right: 50px;
+    margin-left: 0px;
+}
+
+.pic-1-s {
+    height: 400px;
+    width: 300px;
+    margin: 100px 50px 0px 30px;
+}
+
+.pic-2-s {
+    height: 400px;
+    width: 300px;
+    margin: 100px 50px 0px 50px;
+}
+
+
+
+.pic-3-s {
+    height: 400px;
+    width: 300px;
+    margin: 100px 50px 0px 50px;
+}
+
+.picdetails {
+    text-align: center;
+    color: #272727;
+    font-family: Lato;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 35px;
+    text-decoration-line: underline;
 }
