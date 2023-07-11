@@ -178,19 +178,19 @@ nav a {
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
-    margin-left: 372px;
+    margin-left: 365px;
 }
 
 .insta-img {
     display: flex;
-    width: 370px;
-    height: 370px;
+    width: 360px;
+    height: 360px;
     margin-bottom: 90px;
 }
 
 .ins-1 {
     margin: 20px;
-    margin-left: 70px;
+    margin-left: 50px;
 }
 
 .ins-2 {
@@ -203,6 +203,7 @@ nav a {
 
 .ins-4 {
     margin: 20px;
+    margin-right: 100px;
 }
 
 
@@ -210,8 +211,9 @@ nav a {
 /* latest deal style */
 .latest-deal {
     background-image: url('../Flower Asset/Rectangle\ 9.png');
-    margin-left: 70px;
+    margin-left: 50px;
     margin-bottom: 100px;
+    margin-right: 50px;
 }
 
 .latest-deal-title {
@@ -248,3 +250,44 @@ nav a {
 
 
 /* footer related styles */
+.foot {
+    background: #111010;
+}
+
+.foot-title {
+    font-family: Lato;
+    font-size: 48px;
+    font-weight: 800;
+    text-align: center;
+    padding-top: 150px;
+}
+
+.foot-pera {
+    display: flex;
+    width: 625px;
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    padding-left: 350px;
+    padding-bottom: 80px;
+}
+
+.n-design {
+    color: forestgreen;
+}
+
+.s-design {
+    color: whitesmoke;
+}
+
+.copyright {
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 400;
+    padding-bottom: 40px;
+}
