@@ -112,11 +112,9 @@ nav a {
     align-items: center;
 }
 
-.hot-det-info{
+.hot-det-info {}
 
-}
-
-.hot-del-img{
+.hot-del-img {
     margin-right: 100px;
 }
 
@@ -145,7 +143,8 @@ nav a {
     line-height: 25px;
     margin: 0px 200px 10px 70px;
 }
-.shop-but{
+
+.shop-but {
     border-radius: 15px;
     background: #E55473;
     color: #FFF;
@@ -158,3 +157,49 @@ nav a {
     margin: 20px 200px 100px 320px;
 }
 
+
+
+/* insta style added */
+.insta-title {
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 40px;
+    font-weight: 800;
+    padding-top: 100px;
+}
+
+.insta-pera {
+    display: flex;
+    width: 594px; 
+    color: rgba(136, 109, 109, 0.6);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-left:372px;
+}
+
+.insta-img {
+    display: flex;
+    width: 385px;
+    height: 385px;
+    margin-bottom: 90px;
+}
+.ins-1 {
+    margin: 10px;
+}
+.ins-2 {
+    margin: 10px;
+}
+.ins-3 {
+    margin: 10px;
+}
+.ins-4 {
+    margin: 10px;
+}
+
+
+
+/* latest deal style */
