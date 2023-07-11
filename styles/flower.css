@@ -479,3 +479,54 @@ nav a {
     line-height: 35px;
     text-decoration-line: underline;
 }
+
+
+
+/* final style  */
+.finaloption {
+    display: flex;
+    width: 1250px;
+    height: 320px;
+    border-radius: 8px;
+    margin-left: 50px;
+    background: rgba(39, 39, 39, 0.05);
+    margin-bottom: 150px;
+}
+
+.final-pic {
+    margin-top: 80px;
+    margin-left: 180px;
+
+}
+
+.final-p-1 {
+    color: rgba(39, 39, 39, 0.80);
+    font-family: Lato;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 35px;
+    padding-left: 50px;
+    padding-bottom: 80px;
+}
+
+.final-p-2 {
+    color: rgba(39, 39, 39, 0.80);
+    font-family: Lato;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 35px;
+    padding-right: 70px;
+    padding-left: 80px;
+    padding-bottom: 80px;
+}
+
+.final-p-3 {
+    color: rgba(39, 39, 39, 0.80);
+    font-family: Lato;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 35px;
+    padding-right: 50px;
+    padding-left: 110px;
+    padding-bottom: 80px;
+}
