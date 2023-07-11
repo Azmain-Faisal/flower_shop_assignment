@@ -41,7 +41,7 @@ body {
     font-size: 60px;
     font-style: normal;
     font-weight: 400;
-    margin: 150px 100px 20px 0px;
+    margin: 100px 100px 20px 0px;
 }
 
 .header-pera {
@@ -62,8 +62,8 @@ body {
 }
 
 .header-info {
-    margin-left: 10px;
     margin-bottom: 100px;
+    padding-left: 0px;
 }
 
 
@@ -183,25 +183,26 @@ nav a {
 
 .insta-img {
     display: flex;
-    width: 385px;
-    height: 385px;
+    width: 370px;
+    height: 370px;
     margin-bottom: 90px;
 }
 
 .ins-1 {
-    margin: 10px;
+    margin: 20px;
+    margin-left: 70px;
 }
 
 .ins-2 {
-    margin: 10px;
+    margin: 20px;
 }
 
 .ins-3 {
-    margin: 10px;
+    margin: 20px;
 }
 
 .ins-4 {
-    margin: 10px;
+    margin: 20px;
 }
 
 
@@ -209,6 +210,8 @@ nav a {
 /* latest deal style */
 .latest-deal {
     background-image: url('../Flower Asset/Rectangle\ 9.png');
+    margin-left: 70px;
+    margin-bottom: 100px;
 }
 
 .latest-deal-title {
@@ -241,6 +244,7 @@ nav a {
     margin-top: 50px;
 
 }
-.latest-deal-email{
 
-}
+
+
+/* footer related styles */
