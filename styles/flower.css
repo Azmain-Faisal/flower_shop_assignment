@@ -18,14 +18,15 @@ body {
 
 
 /* header related style */
+
 .header {
     background: rgba(229, 84, 115, 0.10);
-    justify-content:space-between;
+    justify-content: space-evenly;
     align-items: center;
 }
 
 .header-contant {
-    justify-content: space-between;
+    justify-content: space-evenly;
     display: flex;
     align-items: center;
     padding: 10px 20px 0px 150px;
@@ -55,21 +56,24 @@ body {
 }
 
 .head-image {
-    width: 450px;
-    height: 600px;
+    width: 500px;
+    height: 700px;
     margin: auto;
 }
 
-.header-info{
+.header-info {
     margin-left: 10px;
     margin-bottom: 100px;
 }
+
+
+
 
 /* upper header style */
 
 .shop-name {
     margin: 0px 370px 30px 29px;
-    font-family:Cursive;
+    font-family: Cursive;
     font-size: 20px;
 }
 
@@ -95,3 +99,62 @@ nav a {
     text-decoration: none;
     color: #474747;
 }
+
+
+
+/* hot detailed related style */
+
+.hot-det {
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.hot-det-info{
+
+}
+
+.hot-del-img{
+    margin-right: 100px;
+}
+
+.hot-det-title {
+    color: #272727;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin: 200px 30px 20px 125px;
+}
+
+.special {
+    color: #E55473;
+}
+
+.hot-det-pera {
+    display: flex;
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+    margin: 0px 200px 10px 70px;
+}
+.shop-but{
+    border-radius: 15px;
+    background: #E55473;
+    color: #FFF;
+    font-family: Lato;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    padding: 20px 40px;
+    gap: 5px;
+    margin: 20px 200px 100px 320px;
+}
+
