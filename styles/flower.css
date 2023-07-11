@@ -171,14 +171,14 @@ nav a {
 
 .insta-pera {
     display: flex;
-    width: 594px; 
+    width: 594px;
     color: rgba(136, 109, 109, 0.6);
     text-align: center;
     font-family: Lato;
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
-    margin-left:372px;
+    margin-left: 372px;
 }
 
 .insta-img {
@@ -187,15 +187,19 @@ nav a {
     height: 385px;
     margin-bottom: 90px;
 }
+
 .ins-1 {
     margin: 10px;
 }
+
 .ins-2 {
     margin: 10px;
 }
+
 .ins-3 {
     margin: 10px;
 }
+
 .ins-4 {
     margin: 10px;
 }
@@ -203,3 +207,40 @@ nav a {
 
 
 /* latest deal style */
+.latest-deal {
+    background-image: url('../Flower Asset/Rectangle\ 9.png');
+}
+
+.latest-deal-title {
+    padding-top: 100px;
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.latest-deal-pera {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.latest-deal-email {
+    border-radius: 8px;
+    background: #FFF;
+    width: 700px;
+    height: 40px;
+    align-items: center;
+    margin-bottom: 125px;
+    margin-left: 300px;
+    margin-top: 50px;
+
+}
+.latest-deal-email{
+
+}
