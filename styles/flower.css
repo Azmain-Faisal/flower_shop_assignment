@@ -22,31 +22,30 @@ body {
     background: rgba(229, 84, 115, 0.10);
     justify-content:space-between;
     align-items: center;
-
 }
 
 .header-contant {
-    justify-content: space-around;
+    justify-content: space-between;
     display: flex;
     align-items: center;
-    padding: 10px 20px 0px 170px;
+    padding: 10px 20px 0px 150px;
     width: auto;
 }
 
 .header-title {
     display: flex;
-    width: 708px;
+    width: 500px;
     color: #272727;
     font-family: Lato;
-    font-size: 80px;
+    font-size: 60px;
     font-style: normal;
     font-weight: 400;
-    margin: 150px 100px 20px 5px;
+    margin: 150px 100px 20px 0px;
 }
 
 .header-pera {
     display: flex;
-    width: 634px;
+    width: 500px;
     color: rgba(39, 39, 39, 0.60);
     font-family: Lato;
     font-size: 18px;
@@ -56,7 +55,7 @@ body {
 }
 
 .head-image {
-    width: 400px;
+    width: 450px;
     height: 600px;
     margin: auto;
 }
