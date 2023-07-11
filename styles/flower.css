@@ -355,3 +355,25 @@ nav a {
     line-height: 35px;
     margin: 0px 50px 0px 50px;
 }
+.provide{
+    display: flex;
+    padding-bottom: 100px;
+    padding-top: 0px;
+}
+.service-provide-1,.service-provide-2,.service-provide-3,.service-provide-4{
+    display: flex;
+    padding-right: 5px;
+}
+.service-provide-pic1,.service-provide-pic2,.service-provide-pic3,.service-provide-pic4{
+    height: 60px;
+    width: 80px;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+.service-provide-title,.service-provide-title-2,.service-provide-title-3,.service-provide-title-4{
+    color: #272727;
+    font-family: Lato;
+    font-size: 30px;
+    font-weight: 800;
+    padding-bottom: 0px;
+}
